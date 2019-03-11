@@ -49,7 +49,7 @@ You can take advantage of improved flexibility in customization options availabl
 ## Entity store in Azure Data Lake (public preview)
 Entity store is an Operational data warehouse that contains simplified transactional data for reporting with Power BI. Now you can stage entity store in your own Azure Data Lake Storage (ADLS Gen2). You can use PowerBI.com in addition to other Azure and third-party tools to work with data. When this feature is enabled, entity store data isn't populated in the relational entity store database in the Microsoft subscription. Instead, it's populated in an Azure Data Lake Storage Gen2 account in your own subscription. You can use the full capabilities of PowerBI.com and other Azure tools to work with entity store.
 
-To enable this feature, see [Entity store in your own Business Data Lake](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-finance-operations/erp-data-entity-store-byod-business-data-lake).
+To enable this feature, see: https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/entity-store-data-lake
 
 ## Trickle feed support for entity store in Azure Data Lake (public preview)
 When entity store is staged in Azure Data Lake, you have the option to enable trickle feed updates. If the trickle feed option is enabled, transactional data gets updated in your own Axure Data Lake as soon as they are committed in Dynamics 365 for Finance and Operations. Use this option to enable real-time reporting with transactional data using PowerBI.com and other tools.
