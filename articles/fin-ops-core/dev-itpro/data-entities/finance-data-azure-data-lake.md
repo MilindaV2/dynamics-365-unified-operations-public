@@ -38,8 +38,9 @@ ms.dyn365.ops.version: Platform Update 34
 The **Export to Azure Data Lake** feature lets you configure your Finance and Operations apps environment so that it uses a data lake. After the configuration is completed, your data lake will reflect tables and entities from Finance and Operations apps.
 
 > [!NOTE]
-> - **This feature might not be available in all regions and/or all environments.** If you don't see this feature in your environment, it isn't available yet.
-> - To make aggregate measurements available in a data lake, continue to use the feature in the manner that is described in [Make entity store available as a Data Lake](entity-store-data-lake.md).
+> **Export to Azure Data Lake functionality may not be available in all regions or all environments supported by Finance and Operations** If you are not able to see the Export to Data Lake functionality in Life cycle services or in Finance and Operations product, this means the functionality is not available in your environment at this point in time. 
+> At this point, Export to Data lake functionality is not available in developer (ie. Tier-1) environments.  
+> To make aggregate measurements available in a data lake, continue to use the feature in the manner that is described in [Make entity store available as a Data Lake](entity-store-data-lake.md).
 
 ## Overview
 
