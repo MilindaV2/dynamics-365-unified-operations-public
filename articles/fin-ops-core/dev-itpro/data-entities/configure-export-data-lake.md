@@ -68,11 +68,11 @@ The Data Lake Storage account will be used to store data from your Finance and O
 
 3. On the **Advanced tab**, select **Data Lake storage Gen2** \> **Hierarchical namespaces**, and then select **Enabled**. If you disable this option, you may not be able to consume data that is written by Finance and Operations apps with services such as Power BI data flows and AI builder.
 4. Select **Review and create**. When the deployment is complete, the new resource will be shown in the Azure portal.
-5. Copy and keep the following information from the storage account that you created:
+5. Copy and keep the following information from the storage account that you created
 
-    i. In the Azure portal, select the storage account you created. Copy and save the <a name="storageaccount"></a>storage account name.
+    i. In the Azure portal, select the storage account you created. Copy and save the <a name="storageaccount"></a>**storage account nam8e*.
     
-    ii. On the left navigation pane, select **Settings** \> **Access keys**, and copy the **Connection string** from Key 1 or Key 2.
+ 
         
 
 ## <a name="createkeyvault"></a>Create a key vault and a secret that contains the storage account
@@ -107,7 +107,7 @@ A key vault is a secure way to share details such as storage account name to you
 
 ## <a name="addsecrets"></a>Add secrets to the key vault
 
-You are going to create three secrets in the Key vault and then add the values saved from previous steps. For each of the secrets, you will need to provide a secret name and provide the value you saved from earlier steps.
+You are going to create three secrets in the Key vault and then add the values saved from previous steps. For each of the secrets, you will need to provide a secret name and provide the value you saved from earlier steps. We suggest selecting a short name (as shown below) for the name of secrets.
 
 | <a name="suggest"></a>**Suggested secret name** | **Secret value (what you saved earlier)**                                |
 |---------------------------|---------------------------------------------------------------------------|
