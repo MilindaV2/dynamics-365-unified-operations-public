@@ -228,6 +228,7 @@ If you are unable to find any of the above applications, complete steps 3 - 7:
 6. For each application that needs to be added, run the following commands to add the application to the Azure Active Directory.
 
     > Connect-AzureAD
+    >
     > New-AzureADServicePrincipal –AppId \<AppId\>
 
 7. Sign in as the Azure Active Directory administrator when prompted.
